@@ -1,0 +1,66 @@
+:root {
+  --main-bg-color: rgb(241,249,155);
+  --main-text-color:rgb(3,71,58);
+}
+body
+{
+	color: var(--main-text-color);
+	background-color: var(--main-bg-color);
+	padding:0.5em;
+	}
+textArea
+{
+	width:100%;
+}
+button
+{
+	background-color:var(--main-text-color);
+	color:var(--main-bg-color);
+}
+.btn
+{
+	width:2em;
+}
+.topBar
+{
+	background-color:var(--main-text-color);
+	color:var(--main-bg-color);
+	display:inline-block;
+	width:100%;
+	height:1.5em;
+	line-height: 1.5em;
+	}
+#toolbar
+{
+	z-index:1000;
+	height:auto;
+	width:300px;
+	padding-left: 2em;
+	background:var(--main-text-color);
+}
+.marginated
+{
+	margin:0.5em;
+}
+.leftPos
+{
+	float:left;
+}
+.rightPos
+{
+	float:right;
+}
+.selection
+{
+	background-color: var(--main-bg-color);
+	/*opacity: 0.3;*/
+	margin: 0;
+	padding: 0.1em;
+	border-width: 0.5em;
+	border-width: var(--main-text-color);
+	border-style: dashed;
+	height:200px;
+	width:300px;
+	position:absolute;
+}
+/*.ui-resizable {position: fixed !important}*/

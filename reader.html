@@ -1,0 +1,37 @@
+<html>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <head>
+	  <link rel="stylesheet" href="./styles.css"/>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+	  </script>
+      <script type="text/javascript" src="./pdf.js"></script>
+	  <script type="text/javascript" src="./core.js"></script>
+	  <script type="text/javascript" src="./scripts/jquery-ui.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  
+
+   </head>
+   <body>
+   <div id="maindiv">
+   	<h1>Corrector de exámenes</h1>
+		<div id="buttonbar">
+			&nbsp; &nbsp;
+			<span>Page: <span id="page_num"></span> / 
+			<span id="page_count"></span></span>
+		</div>
+			<div id="toolbar">
+				<button id="leftIcon"></button>
+				<button id="rightIcon"></button>
+				<button id="addIcon"></button>
+				<button id="loadIcon"></button>
+				<button id="saveIcon"></button>
+			</div>
+		<div>
+			<div id="divPainting" class="marginated"  >
+			</div>
+			<canvas id="canvasFile" class="marginated" ></canvas>
+			
+		</div>
+	</div>   
+   </body>
+ </html>
